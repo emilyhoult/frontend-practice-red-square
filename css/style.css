@@ -1,0 +1,29 @@
+/*
+Colours Palette:
+RED: #e31e3c
+BLACK: #111111
+WHITE: #fefefe
+GREY: #858585
+
+ */
+
+@font-face {
+   font-family: 'Circular-Bold';
+   src:  url('../fonts/CircularStd-Bold.otf') format('opentype');
+ }
+
+@font-face {
+  font-family: 'Circular-Book';
+  src:  url('../fonts/CircularStd-Book.otf') format('opentype');
+}
+
+@font-face {
+   font-family: 'YoungSerif-Regular';
+   src:  url('../fonts/YoungSerif-Regular.otf') format('opentype');
+ }
+
+body {
+  background-color: #111111;
+  color: #fefefe;
+  font-family: 'Circular-Book', sans-serif;
+}
